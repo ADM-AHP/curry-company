@@ -195,6 +195,6 @@ with tab3:
             [location_info['Delivery_location_latitude'], location_info['Delivery_location_longitude']]
         ).add_to(mapa)
 
-    folium_static( mapa, width=1024, height=600)
+    #folium_static( mapa, width=1024, height=600)
     # Exibir mapa
     
