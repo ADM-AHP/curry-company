@@ -10,7 +10,7 @@ import streamlit as st
 from datetime import datetime
 from PIL import Image
 import folium
-#from streamlit_folium import folium_static
+from streamlit_folium import folium_static
 
 st.set_page_config( page_title='Visão Empresa', page_icon='🗺️', layout='wide')
 
@@ -191,5 +191,5 @@ with tab3:
         ).add_to(mapa)
 
     # Exibir mapa no Streamlit
-    #folium_static(mapa, width=1024, height=600) 
-    mapa
+    folium_static(mapa, width=1024, height=600) 
+    
