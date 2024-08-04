@@ -168,7 +168,6 @@ with tab2:
     fig = orde_by_week(df1)
     st.plotly_chart(fig, use_container_width=True)
    
-
 with tab3:
     st.markdown('# Country Maps')
 
@@ -193,3 +192,4 @@ with tab3:
 
     # Exibir mapa no Streamlit
     folium_static(mapa, width=1024, height=600) 
+    mapa
