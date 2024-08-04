@@ -10,7 +10,7 @@ import streamlit as st
 from datetime import datetime
 from PIL import Image
 import folium
-from streamlit_folium import folium_static
+#from streamlit_folium import folium_static
 
 
 st.set_page_config( page_title='Visão Entregador', page_icon='🛵', layout='wide')
