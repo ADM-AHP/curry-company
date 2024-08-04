@@ -191,5 +191,5 @@ with tab3:
         ).add_to(mapa)
 
     # Exibir mapa no Streamlit
-    folium_static(mapa, width=1024, height=600) 
+    #folium_static(mapa, width=1024, height=600) 
     mapa
