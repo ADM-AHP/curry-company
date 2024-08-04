@@ -98,7 +98,6 @@ df1 = clean_code (df1)
 df_aux = df1.groupby('Order_Date') ['ID'].count().reset_index()
 px.bar( df_aux, x='Order_Date', y='ID')
 
-pigar
 #----------------------
 #LAYOUT barra lateral
 st.header('Visão do Cliente')
